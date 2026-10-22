@@ -1,0 +1,315 @@
+# Copyright © 2026 Akane SHIMOKA. MIT License; see ../../../../../../LICENCE.
+# Structured chapter values are authoritative here; narrative remains in ../README.md.
+# null means unknown, never zero or not applicable. Empty lists mean no items recorded.
+# Certainty values: confirmed, tentative, ideas, tbd. Quoted dates use YYYY-MM-DD.
+# This initial structure is provisional; schema_version identifies its data shape,
+# while chapter_revision covers this asset together with its owning Markdown file.
+schema_version: 1
+chapter_id: chapter-01-tokyo
+chapter_revision: 1
+standard_revision: 1
+source_document: ../README.md
+title: Tokyo
+certainty: tentative
+review_status: pending
+approval_status: pending
+source_ids:
+  - user-planning-outline
+  - user-chapter-discussion
+
+purposes:
+  - Settle into Japanese life, complete required administrative tasks, and establish everyday routines.
+  - Adapt workflows to the anticipated time difference after returning to work.
+  - Begin exploring Tokyo and its surroundings.
+
+dates:
+  start:
+    date: "2027-10-20"
+    event: arrival
+    precision: exact
+    certainty: tentative
+  end:
+    date: "2027-12-15"
+    event: departure
+    precision: approximate
+    certainty: tentative
+  timezone: Asia/Tokyo
+  boundary: start-inclusive-end-exclusive
+  duration_days: null
+  housing_nights: null
+  note: Duration and housing nights are not yet finalized; the end date is approximate.
+
+continuity:
+  is_first_chapter: true
+  is_final_chapter: false
+  previous_chapter_id: null
+  next_chapter_id: chapter-02-tohoku-and-hokkaido
+  certainty: tentative
+  note: The next chapter shares the approximate December 15 boundary; transfer details remain TBD.
+
+expected_stay:
+  location: Tokyo
+  specific_base: null
+  certainty: tentative
+  housing:
+    certainty: tentative
+    stages:
+      - type: hotel
+        purpose: Comfort on arrival
+        duration_description: First couple of nights
+        nights: null
+        property: Hotel Paul House
+        area: Near Ueno
+        preference: preferred
+        personal_context: Previously intended for a summer stay that could not take place.
+        check_in: null
+        check_out: null
+        booking_status: tbd
+      - type: sharehouse
+        private_room_required: true
+        desk_required: false
+        provider_candidates:
+          - Sakura House
+        decision_window:
+          earliest_month: "2027-08"
+          latest_month: "2027-09"
+          precision: month
+          certainty: tentative
+        property: null
+        area: null
+        move_in: null
+        move_out: null
+        duration: null
+        booking_status: tbd
+    alternatives: null
+  priority_activities:
+    - description: Start exploring Tokyo and getting to know its surroundings.
+      certainty: tentative
+      places: null
+      dates: null
+  optional_excursions:
+    destinations:
+      - Yokohama
+      - Chiba
+    selection: undecided
+    duration_description: A couple of days
+    duration_days: null
+    overnight_stays: null
+    dates: null
+    certainty: ideas
+  deferred_excursions:
+    - destination: Kamakura
+      chapter_id: chapter-04-tokyo-2
+      certainty: ideas
+    - description: Other similar day trips
+      destinations: null
+      chapter_id: chapter-04-tokyo-2
+      certainty: ideas
+  everyday_needs:
+    description: Establish everyday routines with time to explore and try restaurants at lunchtime.
+    specific_needs: null
+    certainty: tentative
+  administrative_tasks:
+    purpose: Allow time for required arrival and settling-in procedures.
+    applicable_tasks: null
+    deadlines: null
+    research_status: pending
+    certainty: tentative
+  work:
+    certainty: tentative
+    leave:
+      duration_weeks: 2
+      start: null
+      end: null
+      relative_weeks:
+        - week-before-departure
+        - departure-week
+      likely_flight_week_of_leave: 2
+      likely_departure_weekdays:
+        - tuesday
+        - wednesday
+      includes_pre_chapter_time: true
+    workflow_adjustment:
+      duration_weeks: 2
+      precision: approximate
+      starts: after-return-to-work
+      dates: null
+    anticipated_time_difference:
+      minimum_hours: 7
+      maximum_hours: 8
+      evidence: user-estimate
+      date_specific_verification: pending
+    setting: Cafés around Tokyo
+    specific_cafes: null
+    working_hours: null
+    cafe_frequency: null
+    cafe_expenses:
+      budget: separate-business-expenses
+      included_in_travel_budget: false
+    lunchtime_preferences: Explore the city and try restaurants.
+  study: null
+
+budget:
+  reporting_currency: null
+  exclusions:
+    - expense: Café expenditures while working
+      budget: separate-business-expenses
+  conversion:
+    base_currency: EUR
+    quote_currency: JPY
+    jpy_per_eur: 160
+    basis: fixed-planning-assumption
+    eur_display_increment: 10
+    rounding: nearest-half-away-from-zero
+    calculation: Retain unrounded values; round displayed totals and range endpoints only after calculation.
+  sharehouse_monthly_target:
+    currency: JPY
+    minimum: 80000
+    maximum: 100000
+    certainty: tentative
+    basis: user-budget-target-not-market-quote
+    includes_utilities: null
+    includes_fees: null
+    duration: null
+    billing_and_proration: null
+  trip_wide_budget_reference: ../../../README.md#budget-recap
+  trip_wide_housing_allowance_reference: ../../../README.md#trip-wide-monthly-budget-allowances
+  expenses:
+    housing_and_fees:
+      amount: null
+      currency: JPY
+      basis: Initial hotel nights times nightly rate, plus sharehouse duration times monthly target and any applicable fees.
+      hotel_nightly_rate: null
+      fees: null
+    food_and_everyday:
+      amount: null
+      currency: JPY
+      monthly_target:
+        amount: 80000
+        currency: JPY
+        certainty: tentative
+        rationale: Upper end of the trip-wide food allowance, balanced against the lower-end sharehouse target.
+      daily_allowance: null
+      days: null
+      basis: Include restaurant lunches; exclude café work expenditures, which are budgeted separately as business expenses. Meal frequency and costs remain TBD.
+    local_transport:
+      amount: null
+      currency: null
+    sightseeing_and_activities:
+      amount: null
+      currency: null
+    owned_inter_chapter_transfers:
+      amount: null
+      currency: null
+    other:
+      amount: null
+      currency: null
+    contingency:
+      amount: null
+      currency: null
+      basis: null
+  expenditure_total: null
+  known_subtotal: null
+  unknown_amounts: All expense amounts remain unknown; monthly targets are set for sharehouse housing and food, but chapter totals remain unknown.
+  refundable_deposits: null
+  payment_timing: null
+  cash_needed: null
+  expected_income: null
+  trip_wide_cost_and_reserve_allocation: null
+  transfer_costs_owned_elsewhere: null
+
+transportation:
+  arrival:
+    cost_owner_chapter_id: chapter-01-tokyo
+    origin: null
+    destination: Tokyo
+    date_or_window: null
+    timezone: null
+    mode: null
+    cost: null
+    currency: null
+    certainty: tbd
+    booking_evidence: null
+    luggage_constraints: null
+    timing_constraints: null
+  local_movement:
+    routes_or_passes: null
+    dates: null
+    costs: null
+    certainty: tbd
+    evidence: null
+    luggage_constraints: null
+    timing_constraints: null
+  departure:
+    cost_owner_chapter_id: chapter-01-tokyo
+    origin: null
+    destination: null
+    next_chapter_id: chapter-02-tohoku-and-hokkaido
+    date_or_window: null
+    timezone: null
+    mode: null
+    cost: null
+    currency: null
+    certainty: tbd
+    booking_evidence: null
+    luggage_constraints: null
+    timing_constraints: null
+    overnight_housing_allocation: null
+    shared_booking_allocation: null
+
+preparation:
+  - id: housing
+    action: Decide hotel duration and sharehouse move-in date, area, remaining requirements, and utilities or fee coverage within the monthly target.
+    deadline: null
+    sharehouse_decision_window:
+      earliest_month: "2027-08"
+      latest_month: "2027-09"
+    options: Sakura House for the sharehouse; Hotel Paul House near Ueno preferred for arrival.
+    dependencies: Arrival date, comfort preferences, housing availability; private room required, desk not required.
+    certainty: tentative
+  - id: administration
+    action: Identify required administrative tasks and applicable deadlines.
+    deadline: null
+    dependencies: Research based on personal circumstances.
+    certainty: tbd
+  - id: leave-and-workflow
+    action: Finalize dates for two weeks off and the subsequent two-week workflow-adjustment period.
+    deadline: null
+    dependencies: Flight date and work commitments; likely Tuesday or Wednesday departure in leave week 2.
+    certainty: tentative
+  - id: flight-dates
+    action: Confirm flight departure and Tokyo arrival dates separately.
+    deadline: null
+    dependencies: Flight itinerary; tentative Tokyo arrival is 2027-10-20.
+    certainty: tbd
+  - id: work-routine
+    action: Define working hours, identify suitable cafés, and verify the date-specific time difference.
+    deadline: null
+    dependencies: Workflow needs and work location time zone.
+    certainty: tbd
+  - id: excursions
+    action: Decide whether to explore Yokohama or Chiba and whether overnight stays are needed.
+    deadline: null
+    dependencies: Settling-in and work schedule.
+    certainty: ideas
+
+verification:
+  dates: pending
+  housing_nights: pending
+  budget_arithmetic: pending
+  transfer_allocation: pending
+  travel_plan_recap: pending
+
+sources:
+  - id: user-planning-outline
+    kind: user-instruction
+    reference: Planning outline in this conversation
+    recorded_on: "2026-10-19"
+    covers: Chapter title, location, and date range
+    limitations: Years inferred from the 2027–2028 WHV context; dates are intentions, not booking evidence.
+  - id: user-chapter-discussion
+    kind: user-instruction
+    reference: Chapter 1 discussion in this conversation
+    recorded_on: "2026-10-19"
+    covers: Purposes, leave and workflow periods, housing requirements and named preferences, August–September 2027 sharehouse decision window, café working with work expenditures budgeted separately as business expenses, excursions, budget target, conversion rate, and rounding.
+    limitations: No bookings, researched prices, verified administrative requirements, or date-specific time difference; unresolved values remain null.

@@ -1,0 +1,6 @@
+# Ryugu ownership scaffold. Owner identifier: TBD.
+# Add a verified hosting-platform user or team to these three rules:
+# *           OWNER_TBD
+# /CODEOWNERS OWNER_TBD
+# /LICENCE    OWNER_TBD
+# These comments do not establish owner approval or active ownership rules.
