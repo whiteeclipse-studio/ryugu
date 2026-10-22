@@ -3,7 +3,7 @@ id: chapter-06-okinawa
 standard_revision: 1
 ---
 
-# Chapter 06 — Okinawa
+# Chapter 06 — Okinawa — two weeks on island time
 ## Summary
 
 Draft — Tentative. Spend 2028-04-08 to 2028-04-22 in Okinawa as a two-week island chapter between Fukuoka and Shikoku. The islands, bases, and activities remain open. Document review and approval are pending.
@@ -102,3 +102,4 @@ Review of dates, housing nights, arithmetic, transfer allocation, and itinerary 
 | Revision | Date | Author | Description |
 | --- | --- | --- | --- |
 | 1 | 2026-10-19 | Akane SHIMOKA | Initial empty chapter scaffold with chronological numbered identifier and user-provided title and date range; EUR displays rounded to the nearest €10. 2026-10-22: Renumbered as chapter 06, added a short summary, and linked the adjacent Fukuoka and Shikoku drafts. |
+| 2 | 2026-10-22 | Akane SHIMOKA | Added the chapter subtitle and updated affected chapter labels. |

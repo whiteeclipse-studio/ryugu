@@ -3,7 +3,7 @@ id: chapter-02-tohoku-and-hokkaido
 standard_revision: 1
 ---
 
-# Chapter 02 — Tohoku and Hokkaido
+# Chapter 02 — Tohoku and Hokkaido — into the northern winter
 ## Summary
 
 Draft — Tentative. Explore Tohoku and Hokkaido in winter, approximately 2027-12-15 to 2028-01-07, between the first Tokyo stay and Osaka. Specific bases and activities remain open. Document review and approval are pending.
@@ -22,7 +22,7 @@ Copyright © 2026 Akane SHIMOKA. This document is released under the MIT License
 | End / departure | ~2028-01-07 | Tentative; user planning outline |
 | Duration | TBD days; arrival-inclusive, departure-exclusive | TBD |
 | Housing nights | TBD | TBD |
-| Previous chapter | [Tokyo](../chapter-01-tokyo/README.md) | Tentative |
+| Previous chapter | [Tokyo — finding my feet](../chapter-01-tokyo/README.md) | Tentative |
 | Next chapter | [Osaka](../chapter-03-osaka/README.md) | Tentative |
 
 Dates use local Japan calendar dates. `~` means approximate. The approximate December 15 boundary is shared with Tokyo. The approximate January 7 boundary is shared with the draft Osaka chapter. Overnight travel and transfer times: TBD.
@@ -102,3 +102,4 @@ Review of dates, housing nights, arithmetic, transfer allocation, and itinerary 
 | Revision | Date | Author | Description |
 | --- | --- | --- | --- |
 | 1 | 2026-10-19 | Akane SHIMOKA | Initial empty chapter scaffold with chronological numbered identifier and user-provided title and date range; EUR displays rounded to the nearest €10. 2026-10-22: Added a short winter summary, corrected the chapter heading, and connected the draft Osaka chapter. |
+| 2 | 2026-10-22 | Akane SHIMOKA | Added the chapter subtitle and updated affected chapter labels. |

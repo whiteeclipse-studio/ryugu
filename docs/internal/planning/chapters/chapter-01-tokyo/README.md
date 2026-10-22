@@ -3,7 +3,7 @@ id: chapter-01-tokyo
 standard_revision: 1
 ---
 
-# Chapter 01 — Tokyo
+# Chapter 01 — Tokyo — finding my feet
 ## Summary
 
 This first stay in Tokyo provides time to settle into Japanese life, complete the required administrative tasks, and get used to everyday life in the city. The accommodation plan starts with a hotel from Wednesday to Saturday for comfort, followed by a private room in a sharehouse.
@@ -168,3 +168,4 @@ This chapter defines the transfer to the next chapter, or the final return journ
 | Revision | Date       | Author        | Description   |
 | -------- | ---------- | ------------- | ------------- |
 | 1        | 2026-10-19 | Akane SHIMOKA | Initial Draft 2026-10-22: Updated the second Tokyo chapter link after chronological renumbering. |
+| 2 | 2026-10-22 | Akane SHIMOKA | Added the chapter subtitle and updated affected chapter labels. |
