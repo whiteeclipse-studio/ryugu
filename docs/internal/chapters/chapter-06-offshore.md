@@ -1,37 +1,40 @@
 ---
-id: chapter-02-tohoku-and-hokkaido
-standard_revision: 1
+id: chapter-06-offshore
+standard_revision: 2
 ---
 
-# Chapter 02 — Tohoku and Hokkaido — into the northern winter
+# CHAPTER 06 — o\[F\]fshore
+
+*Okinawa — two weeks on island time*
+
 ## Summary
 
-Draft — Tentative. Explore Tohoku and Hokkaido in winter, approximately 2027-12-15 to 2028-01-07, between the first Tokyo stay and Osaka. Specific bases and activities remain open. Document review and approval are pending.
+Draft — Tentative. Spend 2028-04-08 to 2028-04-22 in Okinawa as a two-week island chapter between the eastbound return to Tokyo and Shikoku. The islands, bases, and activities remain open. Document review and approval are pending.
 
-Part of the [travel plan](../../README.md).
+Part of the [travel plan](docs/internal/travel-plan/README.md).
 
 ## Copyright and licence
 
-Copyright © 2026 Akane SHIMOKA. This document is released under the MIT License. See the root [LICENCE](../../../../../LICENCE).
+Copyright © 2026 Akane SHIMOKA. This document is released under the MIT License. See the root [LICENCE](../../../../LICENCE).
 
 ## Dates and continuity
 
 | Item | Plan | Certainty / evidence |
 | --- | --- | --- |
-| Start / arrival | ~2027-12-15 | Tentative; user planning outline |
-| End / departure | ~2028-01-07 | Tentative; user planning outline |
-| Duration | TBD days; arrival-inclusive, departure-exclusive | TBD |
-| Housing nights | TBD | TBD |
-| Previous chapter | [Tokyo — finding my feet](../chapter-01-tokyo/README.md) | Tentative |
-| Next chapter | [Osaka](../chapter-03-osaka/README.md) | Tentative |
+| Start / arrival | 2028-04-08 | Tentative; user planning discussion |
+| End / departure | 2028-04-22 | Tentative; user planning discussion |
+| Duration | 14 days; arrival-inclusive, departure-exclusive | Calculated from tentative boundaries |
+| Housing nights | TBD; reconcile with overnight transfers and selected dates | TBD |
+| Previous chapter | [CHAPTER 05 — the sea leads \[E\]ast](chapter-05-the-sea-leads-east.md) | Tentative |
+| Next chapter | [CHAPTER 07 — small towns, lon\[G\] roads](chapter-07-small-towns-long-roads.md) | Tentative |
 
-Dates use local Japan calendar dates. `~` means approximate. The approximate December 15 boundary is shared with Tokyo. The approximate January 7 boundary is shared with the draft Osaka chapter. Overnight travel and transfer times: TBD.
+Dates use local Japan calendar dates. `~` means approximate. Overnight travel and transfer times remain TBD.
 
 ## Expected stay
 
 | Area | Expectation | Certainty / constraints |
 | --- | --- | --- |
-| Locations and bases | Tohoku and Hokkaido; specific bases and purpose TBD | Tentative; user planning outline |
+| Locations and bases | Okinawa; specific bases and purpose TBD | Tentative; user planning outline |
 | Housing | TBD type, area, nights, and alternatives | TBD |
 | Priority sightseeing and activities | TBD | TBD |
 | Optional activities | TBD | Ideas |
@@ -59,7 +62,7 @@ Refundable deposits and payment timing: TBD. Total cash needed including deposit
 
 Expected income, tracked separately: TBD.
 
-Trip-wide costs and emergency reserve: [overall budget recap](../../README.md#budget-recap); allocation or exclusion TBD.
+Trip-wide costs and emergency reserve: [overall budget recap](docs/internal/travel-plan/README.md#budget-recap); allocation or exclusion TBD.
 
 Transfer costs owned elsewhere and excluded here: TBD; link to owning record.
 
@@ -67,7 +70,7 @@ Transfer costs owned elsewhere and excluded here: TBD; link to owning record.
 
 ### Arrival
 
-Arrival from Tokyo: [previous chapter’s outbound record](../chapter-01-tokyo/README.md#departure-and-connection). That chapter owns the transfer cost; excluded here. Route and cost remain TBD.
+Arrival from Tokyo at the end of the Setouchi and Tokyo chapter: [previous chapter’s outbound record](chapter-05-the-sea-leads-east.md#departure-and-connection). That chapter owns the transfer cost; excluded here. Route and cost remain TBD.
 
 Origin, destination, date or window, time zones, mode, cost and currency, booking certainty, evidence, luggage, and timing constraints: TBD.
 
@@ -99,7 +102,6 @@ Review of dates, housing nights, arithmetic, transfer allocation, and itinerary 
 
 ## Revisions
 
-| Revision | Date | Author | Description |
-| --- | --- | --- | --- |
-| 1 | 2026-10-19 | Akane SHIMOKA | Initial empty chapter scaffold with chronological numbered identifier and user-provided title and date range; EUR displays rounded to the nearest €10. 2026-10-22: Added a short winter summary, corrected the chapter heading, and connected the draft Osaka chapter. |
-| 2 | 2026-10-22 | Akane SHIMOKA | Added the chapter subtitle and updated affected chapter labels. |
+| Revision | Date       | Author        | Description    |
+| -------- | ---------- | ------------- | -------------- |
+| 1        | 2026-10-25 | Akane SHIMOKA | Initial draft. 2026-10-25: Renamed the chapter file and ID to match the selected title, escaped the bracketed letter, and updated chapter links. |

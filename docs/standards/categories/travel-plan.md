@@ -2,13 +2,12 @@
 id: std-whv-travel-plan
 standard_revision: 1
 ---
-
 # WHV travel plan standard
 ## Purpose and scope
 
 The travel plan recaps the complete Working Holiday plan from the chapters in one place. It brings together dates, locations, housing, activities, budgets, transportation, preparation, and unresolved decisions without becoming a separate source of chapter decisions.
 
-This draft category extends the Hypatia shared documentation and governance standards bound in the [standards entrypoint](../README.md). It uses revision 1 of the [chapter standard](./chapters.md) and revision 1 of the [publication standard](../PUBLICATION.md). Review and formal adoption remain pending.
+This draft category extends the Hypatia shared documentation and governance standards bound in the [standards entrypoint](../README.md).
 
 ## Copyright and licence
 
@@ -20,51 +19,73 @@ Uppercase requirement keywords follow IETF **BCP 14**, as defined by [RFC 2119](
 
 ## Location and identification
 
-The single travel plan entrypoint MUST be `docs/internal/planning/README.md`. It MUST have a project-unique ID and declare `standard_revision: 1` when following revision 1 of this category. This placement governs that entrypoint and its supporting pages, excluding the independently governed `chapters/` subtree. Supporting pages MUST link back to the travel plan and inherit its pin; each retains its own ID, notice, and revision history.
+The single travel plan entrypoint MUST be `docs/internal/travel-plan/README.md`. Additional files MAY be added in the `docs/internal/travel-plan` directory.
 
 ## Required content
 
-The travel plan MUST include the following sections in order. Detail MAY reside in linked supporting pages, but the entrypoint MUST retain its chapter index, trip expenditure total or explicit TBD, unplanned intervals, and publication status.
+The travel plan MUST contain the following sections in order. Unknown content MUST be marked TBD. Inapplicable content MUST state that it does not apply and why.
 
-| Section                            | Required recap                                                                                                                                    |
-| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Summary**                        | Overall travel period, purpose, certainty, and completeness.                                                                                      |
-| **Copyright and licence**          | Shared notice and link to the root licence.                                                                                                       |
-| **Chronological chapter index**    | Every chapter, linked by ID, with title, date range, duration, locations, certainty, and expenditure total.                                       |
-| **Unplanned intervals**            | Gaps, overlaps, approximate boundaries, and missing chapters, including the initial and return journeys.                                          |
-| **Expected stay recap**            | Per-chapter bases, housing and nights, priority and optional activities, everyday needs, work or study, and administrative expectations.          |
-| **Budget recap**                   | Per-chapter expense categories, totals, deposits, cash needed, separately tracked income, contingency, trip-wide costs, and emergency reserve.    |
-| **Transportation recap**           | Initial journey, local movement, inter-chapter transfers, and final return, with routes, windows, modes, certainty, constraints, and cost owners. |
-| **Preparation and open decisions** | Outstanding chapter and trip-wide actions, deadlines, dependencies, and review state.                                                             |
-| **Sources**                        | Chapter source IDs and revisions.                                                                                                                 |
-| **Revisions**                      | Shared numbered revision history.                                                                                                                 |
+| Section | Required content |
+| --- | --- |
+| **Summary** | Overall travel period, purpose, and main planning intentions. |
+| **Copyright and licence** | Shared notice and link to the root licence. |
+| **Chronological chapter index** | Chapters in order, with links, dates, durations, and locations. |
+| **Budget allowance** | Expected income, savings available for allocation to the trip, and trip-wide and monthly spending allowances with their calculation basis. |
+| **Planning recap** | Consolidated accommodation, transportation, main activities, and monthly expenditure estimates. |
+| **Revisions** | Shared numbered revision history. |
 
-## Completeness and source ownership
+### Chronological Chapter Index
 
-All substantive chapter data MUST be represented in the travel plan recap, including TBD values, certainty labels, assumptions, and constraints. Wording MAY be condensed, but distinct values and material qualifications MUST NOT be silently omitted. Each chapter's recap MUST link to its source; detailed evidence MAY be referenced rather than copied. The source coverage record MUST identify each chapter's ID and document revision, including supporting pages used.
+The Chronological Chapter Index section MUST list every chapter in a table, in chronological order. Each row MUST include the chapter number and title linked to its source document, its start and end dates, its duration, and its main locations.
 
-Chapters remain authoritative for their own values. Corrections to chapter data MUST be made in the owning chapter before updating the travel plan and publication outputs. The travel plan MAY own trip-wide assumptions, costs, reserves, and actions, provided they are explicitly distinguished from chapter data. Recap maintenance MAY be manual or automated; this standard does not establish an implemented generator.
+The index MUST remain consistent with the chapter sources, preserving tentative dates and marking unknown values TBD. Any gaps or overlaps between chapters MUST be identified.
 
-Every chapter MUST appear in chronological order. Missing dates, approximate boundaries, unplanned intervals, and unconfirmed bookings MUST remain visible. An unknown amount MUST NOT be treated as zero; a known subtotal MUST NOT be labeled a complete trip total.
+### Budget allowance
 
-## Budget consolidation
+The Budget allowance section MUST include both the expected income during the travel period and the total amount of savings that may be allocated to the trip. Income and savings MUST be presented separately.
 
-All EUR/JPY conversions MUST use **€1 = ¥160**. The travel plan MUST state the reporting currency. Converted EUR amounts MUST be displayed rounded to the nearest €10, with exact halfway values rounded away from zero (for example, €625 becomes €630). Calculations MUST retain unrounded values and round each displayed total or range endpoint only after calculation; displayed rounded line items may therefore differ from the rounded total. Unrounded category totals and trip expenditure MUST reconcile with chapter expenditure plus unallocated trip-wide expenditure. A shared cost already allocated to chapters MUST NOT be added again at trip level. Inter-chapter transfer costs MUST follow chapter ownership and be counted once.
+The section MUST state the trip-wide and monthly spending allowances and explain how they are supported by the expected income and available savings. These allowances MUST be distinguished from the expected expenditure presented in Planning recap.
 
-Refundable deposits, expenditure, contingency, emergency reserve, and expected income MUST remain distinguishable. Cash-needed totals MUST explain which of these they include. When inputs are incomplete, affected totals MUST remain TBD or be explicitly labeled partial with their missing inputs.
+### Planning recap
 
-## Publication and maintenance
+The Planning recap section MUST provide simple summaries covering the entire Working Holiday stay through the following subsections:
 
-Chapter data MUST be recapped in a PDF generated according to the applicable consulate's required format, as registered in [PUBLICATION](../PUBLICATION.md#consular-chapter-recap-pdf). The travel plan MUST provide the consolidated source for that output; the PDF MUST NOT be maintained as an independent itinerary.
+- **Expected stay**: a chronological recap of all planned accommodation periods, with their locations, accommodation types, and intended arrival and departure dates.
+- **Transportation**: a recap of all planned transportation, including the initial journey to Japan, travel between chapters and bases, local movement, and the final return journey. The recap MUST summarise routes, modes, and intended dates or travel windows where applicable.
+- **Main activities**: a recap of the major activities planned throughout the WHV, including sightseeing and work, with their relevant locations and intended periods where known.
+- **Month-by-month budget**
 
-Any chapter change MUST trigger review of the corresponding travel plan recap and invalidate any generated PDF that no longer matches. Before generation, review MUST reconcile chapter coverage, dates, housing nights, budgets, transfer ownership, and uncertainty labels. Before a PDF is marked ready for submission, the official consular format MUST be verified and the rendered output checked. Required checks, source references, and generation status follow the publication standard.
+The Month-by-month budget MUST present expected expenditure derived from the chapters so it can be compared with the spending allowances.
+
+## Source ownership
+
+Chapter documents MUST remain authoritative for their dates, accommodation, transportation, activities, and expenditure estimates. The travel plan MUST summarise that information consistently and link to its source chapters. Changes MUST be made in the owning source before updating the recap.
+
+The travel plan MUST identify the financial sources supporting its expected income, available savings, and spending allowances, including any supporting spreadsheet.
+
+Published PDFs MUST be derived from the travel plan and its linked sources. They MUST be regenerated when changes affect their content.
+
+## Publication
+
+The travel plan MUST produce a PDF using the [official programme form supplied by the Japanese embassy in Paris](https://www.fr.emb-japan.go.jp/files/100824215.pdf), as linked from the embassy's [Working Holiday instructions](https://www.fr.emb-japan.go.jp/itpr_fr/v0002b.html). The PDF MUST retain the form's required fields and table structure, using additional pages as necessary.
+
+The PDF MUST cover the entire stay and include:
+
+- Applicant identity fields.
+- Travel periods, cities or regions, accommodation types, and expected monthly rent.
+- Detailed planned activities and expenditure, including daily living, transportation, and meals.
+- Where applicable, weekly study hours and costs, and weekly working hours, expected earnings, and job-search plans.
+
+The PDF SHOULD include a consolidated budget recap at the end. Before submission, it MUST be checked for completeness, consistency with its sources, legibility, and conformity with the embassy's current form and instructions. Missing required information MUST be resolved before the PDF is considered ready for submission.
+
+Documentation uploads, including publication of the generated PDF, MUST follow Hypatia's documentation upload rules. The exact generation and upload pipeline is outside the scope of this document.
 
 ## Reusable model
 
-The [travel plan model](../models/travel-plan.md) provides a copyable template and authoring guidance. It adds no requirements to this standard.
+No model is provided for this category.
 
 ## Revisions
 
-| Revision | Date | Author | Description |
-| --- | --- | --- | --- |
-| 1 | 2026-10-19 | Akane SHIMOKA | Initial draft travel plan recap category covering chapter consolidation, budgets, source coverage, and consular PDF publication, with a reusable model; EUR displays rounded to the nearest €10. |
+| Revision | Date       | Author        | Description   |
+| -------- | ---------- | ------------- | ------------- |
+| 1        | 2026-10-25 | Akane SHIMOKA | Initial draft |

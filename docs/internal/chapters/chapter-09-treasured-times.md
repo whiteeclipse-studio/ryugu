@@ -1,40 +1,43 @@
 ---
-id: chapter-06-okinawa
-standard_revision: 1
+id: chapter-09-treasured-times
+standard_revision: 2
 ---
 
-# Chapter 06 — Okinawa — two weeks on island time
+# CHAPTER 09 — treasured t\[I\]mes
+
+*Tokyo 2 - Electric Boogaloo*
+
 ## Summary
 
-Draft — Tentative. Spend 2028-04-08 to 2028-04-22 in Okinawa as a two-week island chapter between Fukuoka and Shikoku. The islands, bases, and activities remain open. Document review and approval are pending.
+Draft — Tentative. Return to Tokyo approximately 2028-07-07 to 2028-08-28, with a side trip through Fujinomiya and optional Kamakura and similar excursions deferred from the first Tokyo stay. The Fujinomiya dates and length of stay remain open. Document review and approval are pending.
 
-Part of the [travel plan](../../README.md).
+Part of the [travel plan](docs/internal/travel-plan/README.md).
 
 ## Copyright and licence
 
-Copyright © 2026 Akane SHIMOKA. This document is released under the MIT License. See the root [LICENCE](../../../../../LICENCE).
+Copyright © 2026 Akane SHIMOKA. This document is released under the MIT License. See the root [LICENCE](../../../../LICENCE).
 
 ## Dates and continuity
 
 | Item | Plan | Certainty / evidence |
 | --- | --- | --- |
-| Start / arrival | 2028-04-08 | Tentative; user planning outline |
-| End / departure | 2028-04-22 | Tentative; user planning outline |
-| Duration | TBD days; arrival-inclusive, departure-exclusive | TBD |
-| Housing nights | TBD | TBD |
-| Previous chapter | [Fukuoka](../chapter-05-fukuoka/README.md) | Tentative |
-| Next chapter | [Shikoku](../chapter-07-shikoku/README.md) | Tentative |
+| Start / arrival | ~2028-07-07 | Tentative; user planning discussion |
+| End / departure | ~2028-08-28 | Tentative; user planning discussion |
+| Duration | 52 days; arrival-inclusive, departure-exclusive | Calculated from tentative boundaries |
+| Housing nights | TBD; reconcile with overnight transfers and selected dates | TBD |
+| Previous chapter | [CHAPTER 08 — as summer \[H\]appens](chapter-08-as-summer-happens.md) | Tentative |
+| Next chapter | [CHAPTER 10 — the \[J\]ourney goes quiet](chapter-10-the-journey-goes-quiet.md) | Tentative |
 
-Dates use local Japan calendar dates. `~` means approximate. The April 8 boundary is shared with Fukuoka, and the April 22 boundary is shared with Shikoku. Connecting routes remain TBD. Overnight travel and transfer times: TBD.
+Dates use local Japan calendar dates. `~` means approximate. Overnight travel and transfer times remain TBD.
 
 ## Expected stay
 
 | Area | Expectation | Certainty / constraints |
 | --- | --- | --- |
-| Locations and bases | Okinawa; specific bases and purpose TBD | Tentative; user planning outline |
+| Locations and bases | Tokyo, with a Fujinomiya side trip; specific bases, side-trip dates, and length TBD | Tentative; user planning outline |
 | Housing | TBD type, area, nights, and alternatives | TBD |
 | Priority sightseeing and activities | TBD | TBD |
-| Optional activities | TBD | Ideas |
+| Optional activities | Kamakura and other similar day trips deferred from the first Tokyo stay | Ideas; other destinations, dates, and details TBD |
 | Everyday needs | TBD | TBD |
 | Work or study | TBD | TBD |
 | Administrative tasks | TBD | TBD |
@@ -59,7 +62,7 @@ Refundable deposits and payment timing: TBD. Total cash needed including deposit
 
 Expected income, tracked separately: TBD.
 
-Trip-wide costs and emergency reserve: [overall budget recap](../../README.md#budget-recap); allocation or exclusion TBD.
+Trip-wide costs and emergency reserve: [overall budget recap](docs/internal/travel-plan/README.md#budget-recap); allocation or exclusion TBD.
 
 Transfer costs owned elsewhere and excluded here: TBD; link to owning record.
 
@@ -67,7 +70,7 @@ Transfer costs owned elsewhere and excluded here: TBD; link to owning record.
 
 ### Arrival
 
-Arrival from Fukuoka: [previous chapter’s outbound record](../chapter-05-fukuoka/README.md#departure-and-connection). That chapter owns the transfer cost; excluded here. Route and cost remain TBD.
+Arrival from the early-summer destination (TBD): [previous chapter’s outbound record](chapter-08-as-summer-happens.md#departure-and-connection). That chapter owns the transfer cost; excluded here. Route and cost remain TBD.
 
 Origin, destination, date or window, time zones, mode, cost and currency, booking certainty, evidence, luggage, and timing constraints: TBD.
 
@@ -96,10 +99,11 @@ Review of dates, housing nights, arithmetic, transfer allocation, and itinerary 
 | Item | Source / evidence | Checked on | Assumption or limitation |
 | --- | --- | --- | --- |
 | Chapter title, region, and date range | User planning outline in this conversation, 2026-10-19 | 2026-10-19 | Years inferred from the 2027–2028 WHV context; dates are planning intentions, not booking evidence. Other content remains TBD. |
+| Deferred day trips | User input in this conversation, 2026-10-19 | 2026-10-19 | Reserve Kamakura and similar day trips for this Tokyo stay; no bookings or dates chosen. |
+| Chapter title | *Treasured Times*, from *NieR:Automata*, Disc 1, track 13; [official Square Enix soundtrack track list](https://www.jp.square-enix.com/music/en/lineup/item/SQEX-10589-91.html) | 2026-10-25 | Title typography adapted to the ending convention. |
 
 ## Revisions
 
-| Revision | Date | Author | Description |
-| --- | --- | --- | --- |
-| 1 | 2026-10-19 | Akane SHIMOKA | Initial empty chapter scaffold with chronological numbered identifier and user-provided title and date range; EUR displays rounded to the nearest €10. 2026-10-22: Renumbered as chapter 06, added a short summary, and linked the adjacent Fukuoka and Shikoku drafts. |
-| 2 | 2026-10-22 | Akane SHIMOKA | Added the chapter subtitle and updated affected chapter labels. |
+| Revision | Date       | Author        | Description    |
+| -------- | ---------- | ------------- | -------------- |
+| 1        | 2026-10-25 | Akane SHIMOKA | Initial draft. 2026-10-25: Renamed the chapter file and ID to match the selected title, escaped the bracketed letter, and updated chapter links. |
