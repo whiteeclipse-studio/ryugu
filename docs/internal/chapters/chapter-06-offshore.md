@@ -1,6 +1,9 @@
 ---
 id: chapter-06-offshore
 standard_revision: 1
+parent: ../travel-plan/README.md
+previous: ./chapter-05-the-sea-leads-east.md
+next: ./chapter-07-small-towns-long-roads.md
 ---
 
 # CHAPTER 06 — o\[F\]fshore

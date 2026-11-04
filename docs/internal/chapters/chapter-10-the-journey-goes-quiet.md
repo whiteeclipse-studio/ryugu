@@ -1,6 +1,9 @@
 ---
 id: chapter-10-the-journey-goes-quiet
 standard_revision: 1
+parent: ../travel-plan/README.md
+previous: ./chapter-09-treasured-times.md
+next: ./chapter-11-what-autumn-keeps.md
 ---
 
 # CHAPTER 10 — the \[J\]ourney goes quiet

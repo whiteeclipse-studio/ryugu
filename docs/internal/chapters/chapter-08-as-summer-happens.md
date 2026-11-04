@@ -1,6 +1,9 @@
 ---
 id: chapter-08-as-summer-happens
 standard_revision: 1
+parent: ../travel-plan/README.md
+previous: ./chapter-07-small-towns-long-roads.md
+next: ./chapter-09-treasured-times.md
 ---
 
 # CHAPTER 08 — as summer \[H\]appens

@@ -1,6 +1,8 @@
 ---
 id: chapter-01-finding-my-place
 standard_revision: 1
+parent: ../travel-plan/README.md
+next: ./chapter-02-holidays-beneath-northern-skies.md
 ---
 
 # CHAPTER 01 — finding my pl\[A\]ce

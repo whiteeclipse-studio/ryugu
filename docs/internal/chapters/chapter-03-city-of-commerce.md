@@ -1,6 +1,9 @@
 ---
 id: chapter-03-city-of-commerce
 standard_revision: 1
+parent: ../travel-plan/README.md
+previous: ./chapter-02-holidays-beneath-northern-skies.md
+next: ./chapter-04-late-winter-days.md
 ---
 
 # CHAPTER 03 — city of \[C\]ommerce

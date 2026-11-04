@@ -1,6 +1,9 @@
 ---
 id: chapter-05-the-sea-leads-east
 standard_revision: 1
+parent: ../travel-plan/README.md
+previous: ./chapter-04-late-winter-days.md
+next: ./chapter-06-offshore.md
 ---
 
 # CHAPTER 05 — the sea leads \[E\]ast

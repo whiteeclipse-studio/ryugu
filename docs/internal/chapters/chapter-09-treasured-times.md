@@ -1,6 +1,9 @@
 ---
 id: chapter-09-treasured-times
 standard_revision: 1
+parent: ../travel-plan/README.md
+previous: ./chapter-08-as-summer-happens.md
+next: ./chapter-10-the-journey-goes-quiet.md
 ---
 
 # CHAPTER 09 — treasured t\[I\]mes

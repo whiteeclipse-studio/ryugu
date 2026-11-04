@@ -1,6 +1,9 @@
 ---
 id: chapter-02-holidays-beneath-northern-skies
 standard_revision: 1
+parent: ../travel-plan/README.md
+previous: ./chapter-01-finding-my-place.md
+next: ./chapter-03-city-of-commerce.md
 ---
 
 # CHAPTER 02 — holidays \[B\]eneath northern skies

@@ -1,6 +1,9 @@
 ---
 id: chapter-07-small-towns-long-roads
 standard_revision: 1
+parent: ../travel-plan/README.md
+previous: ./chapter-06-offshore.md
+next: ./chapter-08-as-summer-happens.md
 ---
 
 # CHAPTER 07 — small towns, lon\[G\] roads

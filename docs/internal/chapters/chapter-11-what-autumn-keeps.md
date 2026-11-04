@@ -1,6 +1,9 @@
 ---
 id: chapter-11-what-autumn-keeps
 standard_revision: 1
+parent: ../travel-plan/README.md
+previous: ./chapter-10-the-journey-goes-quiet.md
+next: ./chapter-12-farewell-for-now.md
 ---
 
 # CHAPTER 11 — what autumn \[K\]eeps

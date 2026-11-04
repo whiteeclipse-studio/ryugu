@@ -1,6 +1,8 @@
 ---
 id: chapter-12-farewell-for-now
 standard_revision: 1
+parent: ../travel-plan/README.md
+previous: ./chapter-11-what-autumn-keeps.md
 ---
 
 # CHAPTER 12 — farewel\[L\], for now

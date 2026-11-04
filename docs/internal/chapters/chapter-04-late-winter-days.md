@@ -1,6 +1,9 @@
 ---
 id: chapter-04-late-winter-days
 standard_revision: 1
+parent: ../travel-plan/README.md
+previous: ./chapter-03-city-of-commerce.md
+next: ./chapter-05-the-sea-leads-east.md
 ---
 
 # CHAPTER 04 — late winter \[D\]ays
