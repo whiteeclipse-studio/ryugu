@@ -16,7 +16,7 @@ Copyright © 2026 Akane SHIMOKA. This document is released under the MIT License
 
 ## Structure and navigation
 
-TBD
+- [Japan WHV Travel plan](./internal/travel-plan/README.md)
 
 ## Documentation basis
 
@@ -27,3 +27,4 @@ TBD
 | Revision | Date | Author | Description |
 | --- | --- | --- | --- |
 | 1 | 2026-10-19 | Akane SHIMOKA | Initial draft |
+| 2 | 2026-11-04 | Akane SHIMOKA | Add travel plan link |
