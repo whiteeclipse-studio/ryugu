@@ -109,6 +109,6 @@ The [chapter model](../models/chapter.md) provides a starting point. It adds no 
 
 ## Revisions
 
-| Revision | Date       | Author        | Description   |
-| -------- | ---------- | ------------- | ------------- |
-| 1        | 2026-10-25 | Akane SHIMOKA | Initial draft |
+| Revision | Date | Author | Description |
+| --- | --- | --- | --- |
+| 1 | 2026-10-25 | Akane SHIMOKA | Initial draft |

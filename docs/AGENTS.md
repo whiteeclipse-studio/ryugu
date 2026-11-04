@@ -6,7 +6,7 @@ standard_revision: 1
 # Ryugu documentation agent instructions
 ## Scope
 
-Ryugu is a documentation-only Japan Working Holiday planning vault. Follow the user's current instructions and the [documentation entrypoint](./README.md). Read the relevant [shared and category standards](../../hypatia/docs/standards/README.md) before dependent edits. The entrypoint records the current scaffold's unresolved applicability and governance points.
+Ryugu is a documentation-only Japan Working Holiday planning vault. Follow the user's current instructions and the [documentation entrypoint](./README.md). Read the relevant [shared and category standards](https://whiteeclipse.dev/hypatia/standards) before dependent edits. The entrypoint records the current scaffold's unresolved applicability and governance points.
 
 ## Collaborative authoring
 
@@ -24,6 +24,6 @@ Copyright © 2026 Akane SHIMOKA. This document is released under the MIT License
 
 ## Revisions
 
-| Revision | Date       | Author        | Description                                                                  |
-| -------- | ---------- | ------------- | ---------------------------------------------------------------------------- |
-| 1        | 2026-10-19 | Akane SHIMOKA | Initial instructions for collaborative documentation in Ryugu.               |
+| Revision | Date | Author | Description |
+| --- | --- | --- | --- |
+| 1 | 2026-10-19 | Akane SHIMOKA | Initial draft |

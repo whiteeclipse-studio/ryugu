@@ -15,7 +15,7 @@ Copyright © 2026 Akane SHIMOKA. This document is released under the MIT License
 
 Copy the template to `docs/internal/chapters/chapter-NN-subject.md`. Replace the chapter number, subject, title, and placeholders with known information, keeping the filename stem and document ID aligned. The template follows revision 1 of the chapter category; the model itself follows revision 1 of the shared documentation standard.
 
-The category also allows `docs/internal/chapters/chapter-NN-subject/README.md`. For that layout, adjust relative links: the root licence is `../../../../LICENCE` and the travel plan is `../../travel-plan/README.md`. The template below assumes the standalone-file layout.
+The category also allows `docs/internal/chapters/chapter-NN-subject/README.md`. For that layout, adjust relative links: the root licence is `../../../LICENCE` and the travel plan is `../../travel-plan/README.md`. The template below assumes the standalone-file layout.
 
 Keep the required sections in their prescribed order. Mark unknown information TBD and explain why any inapplicable content does not apply. Use the accommodation table for successive stays. In chapters covering multiple cities, repeat the city subsection under Activities for each city; work and sightseeing can then be described separately within each. For a single-city chapter, the city heading may be omitted.
 
@@ -41,7 +41,7 @@ Purpose: TBD. Intended outcome: TBD.
 
 Start date: TBD. End date: TBD. Duration: TBD; state the counting convention.
 
-Part of the [travel plan](../travel-plan/README.md).
+Part of the [travel plan](/docs/internal/travel-plan/README.md).
 
 ## Copyright and licence
 
@@ -186,11 +186,11 @@ Refundable deposits: TBD; record separately from expenditure. Cash-needed calcul
 
 | Revision | Date | Author | Description |
 | --- | --- | --- | --- |
-| 1 | YYYY-MM-DD | Akane SHIMOKA | Initial draft chapter. |
+| 1 | YYYY-MM-DD | Akane SHIMOKA | Initial draft |
 ```
 
 ## Revisions
 
-| Revision | Date       | Author        | Description                                                                                                                           |
-| -------- | ---------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| 1        | 2026-10-19 | Akane SHIMOKA | Initial model. 2026-10-25: Rebuilt from the current chapter category, including section order, accommodation periods, city activities, itemised budget subsections, significant-digit EUR displays, chapter recap, and outstanding preparation. |
+| Revision | Date | Author | Description |
+| --- | --- | --- | --- |
+| 1 | 2026-10-19 | Akane SHIMOKA | Initial draft |

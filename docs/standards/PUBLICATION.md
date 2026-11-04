@@ -22,6 +22,6 @@ TBD
 
 ## Revisions
 
-| Revision | Date       | Author        | Description   |
-| -------- | ---------- | ------------- | ------------- |
-| 1        | 2026-10-19 | Akane SHIMOKA | Initial draft |
+| Revision | Date | Author | Description |
+| --- | --- | --- | --- |
+| 1 | 2026-10-19 | Akane SHIMOKA | Initial draft |

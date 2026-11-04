@@ -1,0 +1,33 @@
+name: Publish documentation
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Compile documentation
+        run: bunx @whiteeclipse/docs-compiler@alpha
+
+      # Release assets allow unauthenticated downloads from public repositories.
+      - name: Publish archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "docs-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" \
+            dist/docs/ryugu.tgz \
+            --target "$GITHUB_SHA" \
+            --title "Documentation ${GITHUB_RUN_NUMBER}" \
+            --notes "Compiled documentation from commit ${GITHUB_SHA}." \
+            --latest

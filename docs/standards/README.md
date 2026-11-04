@@ -6,7 +6,7 @@ standard_revision: 1
 # Ryugu documentation standards
 ## Purpose and basis
 
-Ryugu extends the documentation standards in the sibling Hypatia project. The [shared documentation standard](../../hypatia/docs/standards/README.md) defines structure, metadata, language, notices, revisions, translations, assets, and source references. The [governance standard](../../hypatia/docs/standards/GOVERNANCE.md) defines ownership, review, approval, and licensing. Those requirements apply here; local categories add project-specific requirements.
+Ryugu extends the documentation standards in the sibling Hypatia project. The [shared documentation standard](https://whiteeclipse.dev/hypatia/standards/) defines structure, metadata, language, notices, revisions, translations, assets, and source references. The [governance standard](https://whiteeclipse.dev/hypatia/standards/GOVERNANCE.md) defines ownership, review, approval, and licensing. Those requirements apply here; local categories add project-specific requirements.
 
 ## Copyright and licence
 
@@ -22,6 +22,6 @@ TBD
 
 ## Revisions
 
-| Revision | Date       | Author        | Description   |
-| -------- | ---------- | ------------- | ------------- |
-| 1        | 2026-10-19 | Akane SHIMOKA | Initial draft |
+| Revision | Date | Author | Description |
+| --- | --- | --- | --- |
+| 1 | 2026-10-19 | Akane SHIMOKA | Initial draft |
